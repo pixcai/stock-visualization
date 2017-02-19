@@ -6,9 +6,6 @@ const option = {
 	xAxis: {
 		type: 'category', 
 		axisLine: {
-			onZero: false
-		}, 
-		axisLine: {
 			show: false
 		}, 
 		axisTick: {
