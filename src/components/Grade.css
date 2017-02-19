@@ -1,0 +1,50 @@
+.grade {
+	width: 265px;
+	height: 378px;
+}
+
+.grade-wrap {
+	padding: 0 18px;
+}
+
+.grade-title {
+	margin: 6px 0 0 0;
+	line-height: 40px;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.grade-pie {
+	position: relative;
+	margin: 15px auto;
+	width: 200px;
+	height: 200px;
+}
+
+.grade-pie-label {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	line-height: 200px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.grade-pie-label strong {
+	font-size: 48px;
+	color: #59b881;
+}
+
+.grade-block {
+	margin-top: 20px;
+	font-size: 14px;
+	text-align: center;
+}
+
+.grade-label {
+	padding: 2px 4px;
+	color: #fff;
+	background-color: #528fcc;
+	border-radius: 2px;
+}

@@ -1,0 +1,28 @@
+.tab, 
+.tab-active {
+	padding-top: 27px;
+	height: 99px;
+	border-left-width: 6px;
+	border-left-style: solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tab {
+	border-left-color: transparent;
+	background-color: #f8f8f8;
+}
+
+.tab-active {
+	border-left-color: #d75442;
+	background-color: #fff;
+}
+
+.tab-title {
+	display: inline-block;
+	margin: 0;
+	padding-left: 36px;
+	line-height: 26px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}

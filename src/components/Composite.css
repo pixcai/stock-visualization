@@ -1,0 +1,29 @@
+.composite {
+	width: 386px;
+}
+
+.composite-wrap {
+	padding: 22px 25px 0 25px;
+	overflow: hidden;
+}
+
+.composite-title {
+	margin-bottom: 30px;
+	font-size: 12px;
+}
+
+.composite-title strong {
+	padding-left: 25px;
+	background-repeat: no-repeat;
+	background-position: 0 -16px;
+}
+
+.composite-title span {
+	margin-left: 15px;
+	color: #59b881;
+}
+
+.composite-chart {
+	margin-top: -60px;
+	height: 220px;
+}

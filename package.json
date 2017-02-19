@@ -1,0 +1,35 @@
+{
+  "name": "stock-visualization",
+  "version": "1.0.0",
+  "description": "Stock data visualization example",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "roadhog test",
+    "start": "roadhog server",
+    "build": "roadhog build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixcai/stock-visualization.git"
+  },
+  "keywords": [
+    "echarts.js",
+    "visualization"
+  ],
+  "author": "pixcai",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pixcai/stock-visualization/issues"
+  },
+  "homepage": "https://github.com/pixcai/stock-visualization#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "echarts": "^3.4.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.1.1",
+    "roadhog": "^0.5.3"
+  }
+}

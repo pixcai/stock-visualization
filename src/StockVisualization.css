@@ -1,0 +1,38 @@
+:global(body) {
+	margin: 0;
+	background-color: #ebeff0;
+}
+
+.container {
+	margin: 40px;
+	width: 1200px;
+}
+
+.container-top, 
+.container-bottom {
+	position: relative;
+}
+
+.container-top::after {
+	display: block;
+	content: '';
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.container-bottom {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.container-top-left {
+	float: left;
+	width: 915px;
+}
+
+.container-top-right {
+	float: right;
+}
